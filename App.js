@@ -85,8 +85,8 @@ export default class App extends Component {
         <Header flagsLeft={this.minesAmount() - flagsUsed(this.state.board)}
             onNewGame={() => this.setState(this.createState())}
             onFlagPress={() => this.setState({ showLevelSelection: true })} />
-        <Text style={styles.welcome}>Iniciando o Mines!</Text>
-        <Text style={styles.instrucions}>Tamanho da grade: 
+        <Text style={styles.welcome}>Mines!</Text>
+        <Text style={styles.instrucions}>Tamanho do campo: 
             {params.getRowsAmount()}x{params.getColumnsAmount()}</Text>
         
         <View style={styles.board}>
