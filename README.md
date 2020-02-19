@@ -18,3 +18,19 @@ Seeing **device** in the right column means the device is connected
 
 ### iOS
 ``react-native log-ios``
+
+### Game execution:
+
+<img src="minas1.jpeg" alt="Campo minado" width="25%">
+<br/>
+<img src="minas2.jpeg" alt="Campo minado" width="25%">
+<br/>
+
+#### It allows the marking of flags where there may be a mine:
+
+<img src="minas3.jpeg" alt="Campo minado" width="25%">
+<br/>
+
+#### Allows level selection:
+
+<img src="nivel.jpeg" alt="Campo minado" width="25%">
